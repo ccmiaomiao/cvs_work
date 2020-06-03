@@ -1,0 +1,79 @@
+html,body{
+    height: 100%;
+    background: #333;
+}
+.flex {
+    display: flex;
+
+    &.in {
+        display: inline-flex;
+    }
+
+    &.ac {
+        align-items: center;
+    }
+
+    &.as {
+        align-items: flex-start;
+    }
+
+    &.ae {
+        align-items: flex-end;
+    }
+
+    &.js {
+        justify-content: space-between;
+    }
+
+    .f1 {
+        flex: 1;
+    }
+
+    &.jc {
+        justify-content: center;
+    }
+
+    &.je {
+        justify-content: flex-end;
+    }
+
+    &.dc {
+        flex-direction: column;
+    }
+
+    &.ww {
+        flex-wrap: wrap;
+    }
+}
+#app{
+    .el-table, .el-table__expanded-cell, .el-table th, .el-table tr{
+        background:transparent;
+        color:#fff;
+    }
+    .el-table thead{
+        background:rgba(49, 49, 49, 0.1);
+    }
+    .el-table--enable-row-hover .el-table__body tr:hover>td{
+        background:rgba(255,255,255,.1);
+    }
+}
+
+::-webkit-scrollbar-track { 
+    border-radius: 8px; 
+    background-color: #333; 
+} 
+   
+::-webkit-scrollbar-thumb { 
+    border-radius: 8px; 
+    background-color: rgba(255, 255, 255, 0.45); 
+}
+
+::-webkit-scrollbar { 
+    width: 8px; 
+    height: 8px; 
+    background-color: #333;
+    opacity:0;
+    &.hover{
+        opacity:1;
+    }
+} 

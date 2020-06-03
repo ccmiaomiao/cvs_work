@@ -1,0 +1,54 @@
+<template>
+    <header class="flex ac js">
+        <a href="https://www.xmind.cn/">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="24" viewBox="0 0 80 24">
+                <defs>
+                    <path id="a" d="M.265.091h13.25V18H.266z" />
+                </defs>
+                <g fill="none" fill-rule="evenodd">
+                    <path
+                        fill="#fff"
+                        d="M12.956 6.598l-3.908 5.228L5.14 6.598H.795l5.947 7.765L0 23.193h4.333l4.715-6.277 4.698 6.276h4.35l-6.742-8.876L17.3 6.598zM35.579 6.598l-5.645 6.854-5.646-6.854h-3.813v16.594h3.474V11.253l5.912 7.018h.096l5.96-7.088v12.01h3.475V6.597zM43.06 23.192h3.673V10.197H43.06zM43.063 6.598h3.668V3h-3.668zM58.076 10.278c1.382 0 2.692.446 3.517 1.336.825.891 1.238 2.065 1.238 3.52v8.058h-3.594v-7.718c0-.823-.24-1.278-.64-1.757-.402-.48-.909-.62-1.6-.62-.525 0-1.019.15-1.48.454l-.013.009c-.968.643-1.508 1.749-1.508 2.895v6.737h-3.607V10.273h3.607v1.825a5.438 5.438 0 0 1 1.896-1.427c.659-.312 1.41-.393 2.184-.393"
+                    />
+                    <g transform="translate(65.18 5.193)">
+                        <path
+                            fill="#fff"
+                            d="M7.979 15.134h1.95l-.004-7.188H7.58c-1.108 0-1.99.193-2.653.861-.662.67-1.22 1.573-1.22 2.66 0 2.615 1.576 3.667 4.27 3.667zM9.874 5.063L9.867.09h3.649V18H7.082c-2.065 0-3.718-.583-4.958-1.75-1.24-1.167-1.86-2.758-1.86-4.775 0-1.194.288-2.28.865-3.256A6.159 6.159 0 0 1 3.507 5.92a6.73 6.73 0 0 1 3.282-.856h3.085z"
+                            mask="url(#b)"
+                        />
+                    </g>
+                </g>
+            </svg>
+        </a>
+        <a href="./xmindwork.zip" download="xmindwork" title="下载源码">
+            <i class="xmindfont icon-download"></i>
+        </a>
+    </header>
+</template>
+
+<script>
+export default {
+    name: 'xheader'
+};
+</script>
+
+<style lang="less" scoped>
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 0 18px;
+    height: 60px;
+    background: #202020;
+    z-index: 3;
+}
+.xmindfont {
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s;
+    &:hover {
+        color: #bbb;
+    }
+}
+</style>
