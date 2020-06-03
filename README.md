@@ -1,5 +1,7 @@
 # maybeicouldgetawork
 
+## [在线查看](http://heimimiao.wang/xmind/)
+
 ### 嘛。。。这个工程，炫技中还要带着实用，着实掉了几根头发，还劳烦 boss 们花点时间审阅下
 
 #### 工期大概在 2 + 3 + 5(h)。。。emmm。。。。
